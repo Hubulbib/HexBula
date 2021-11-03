@@ -1,0 +1,182 @@
+.result h1,
+span {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.result {
+  position: relative;
+  background-image: url(back.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+}
+.main {
+  padding: 40px;
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backdrop-filter: blur(6px);
+  height: 90%;
+}
+
+.your_result {
+  text-align: center;
+  cursor: default;
+  font-size: 64px;
+  margin-bottom: 25%;
+}
+
+.mark {
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: center;
+  justify-content: center;
+  margin-right: 10%;
+}
+
+.resulting {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 10%;
+}
+
+.righting {
+  font-size: 80px;
+}
+
+.mark_span {
+  font-size: 72px;
+  padding-left: 20px;
+}
+
+.mark_info {
+  line-height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: flex-start;
+}
+
+.right_count_div,
+.max {
+  cursor: default;
+}
+
+.right_count {
+  border-bottom: 1px solid white;
+  margin-left: 10px;
+}
+
+.mark_time {
+  display: flex;
+}
+
+.mark_time_span {
+  cursor: default;
+  font-size: 48px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.btn_new_result {
+  transition: all 1s;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-self: center;
+  border-radius: 30px;
+  background: rgba(196, 196, 196, 0.3);
+}
+
+.btn_new_result:hover {
+  transition: all 1s;
+  transform: rotate(-360deg);
+}
+
+.confetti {
+  width: 40px;
+  height: 40px;
+}
+
+.result_register {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 15%;
+}
+
+.reg_info {
+  padding-bottom: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reg_info2 {
+  width: 50%;
+  padding-bottom: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reg_name_div {
+  height: 50%;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reg_places1 {
+  cursor: default;
+  font-size: 24px;
+  padding-bottom: 50px;
+}
+
+.reg_places2 {
+  cursor: default;
+  font-size: 36px;
+  padding-bottom: 35px;
+}
+
+.reg_input {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  color: white;
+  text-decoration-color: white;
+}
+
+.btn_reg_save {
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  padding: 10px 40px 10px 40px;
+  width: min-content;
+  background: radial-gradient(
+    272.37% 7853.5% at -67.09% -40.79%,
+    rgba(255, 255, 255, 0.48) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 30px;
+  border: 1px solid transparent;
+  transition: all 0.5s;
+  font-size: 32px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn_reg_save:hover {
+  transition: all 0.5s;
+  border: 1px solid silver;
+}

@@ -1,0 +1,6 @@
+{
+    "PORT": 5000,
+    "mongoUri": "mongodb+srv://Hubulbib:Molka2004@cluster0.dqiee.mongodb.net/hexbulaDB?retryWrites=true&w=majority",
+    "email": "aaronhevel@gmail.com",
+    "password": "Molka2004"
+}

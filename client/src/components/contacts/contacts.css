@@ -1,0 +1,127 @@
+.form {
+  height: 100%;
+}
+
+.contacts {
+  position: relative;
+  background-color: #191919;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts_div {
+  width: 50%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts_text_div {
+  cursor: default;
+  padding-bottom: 8%;
+}
+.contacts_text {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+}
+
+.contacts_input {
+  width: 65%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-align: start;
+  border-bottom: 2px solid #413f40;
+  margin-bottom: 5%;
+  transition: all 0.5s;
+}
+
+.contacts_input:focus {
+  transition: all 0.5s;
+  font-size: 24px;
+}
+
+.contacts_textarea {
+  resize: none;
+  width: 65%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding-bottom: 30px;
+  text-align: start;
+  border-bottom: 2px solid #413f40;
+  margin-bottom: 5%;
+  height: 100px;
+  transition: all 0.5s;
+}
+
+.contacts_textarea:focus {
+  font-size: 20px;
+  transition: all 0.5s;
+}
+
+.contacts_btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  padding: 0px 10px 0px 10px;
+  border-bottom: 1px solid white;
+  margin-bottom: 5%;
+  transition: all 0.5s;
+}
+
+.contacts_btn:hover {
+  border-bottom: 1px solid transparent;
+  transition: all 0.5s ease-out;
+}
+
+.contacts_find_us {
+  display: flex;
+}
+.find_us {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.find_us:hover {
+  margin: 0 20px 0 20px;
+  transition: all 0.5s;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: white; /* Цвет подсказывающего текста */
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: white;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: white;
+}
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+  color: white;
+}
+input::placeholder,
+textarea::placeholder {
+  color: white;
+}

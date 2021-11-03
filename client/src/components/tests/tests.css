@@ -1,0 +1,133 @@
+.tests {
+  position: relative;
+  background-image: url(back.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.test_div1,
+.test_div2 {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  align-items: center;
+  align-self: center;
+  max-height: 70%;
+}
+
+.test_item {
+  text-decoration: none;
+  margin-bottom: 5%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  width: 120%;
+  max-height: 160px;
+  border-radius: 30px;
+  backdrop-filter: blur(30px);
+  transition: all 0.75s;
+  background: radial-gradient(
+    156.39% 798.6% at -5.86% 0%,
+    rgba(255, 255, 255, 0.144) 0%,
+    rgba(0, 0, 0, 0.36) 80.81%,
+    rgba(130, 130, 130, 0) 100%
+  );
+}
+
+.test_item:hover {
+  transition: all 0.75s;
+  box-shadow: 7.5px 7.5px #4e2639, 15px 15px #2b2227;
+}
+
+.test_number {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.test_name {
+  padding-top: 5%;
+  padding-bottom: 10%;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  color: white;
+}
+
+.test_many {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.nav_div {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.text_nav {
+  padding-left: 7.5%;
+  display: flex;
+  background-color: transparent;
+}
+
+.nav_item_main {
+  transition: all 0.5s;
+  cursor: pointer;
+  background-color: transparent;
+  padding-right: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav_item {
+  text-decoration: none;
+  transition: all 0.5s;
+  cursor: pointer;
+  background-color: transparent;
+  padding-right: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav_item:hover {
+  padding-bottom: 30px;
+  transition: all 0.5s;
+}
+
+.nav_text {
+  font-weight: 300;
+  color: white;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.triangle {
+  padding-top: 10px;
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid white;
+}
+
+.band {
+  display: flex;
+  justify-content: flex-start;
+  height: 30px;
+  background-color: white;
+}

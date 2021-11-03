@@ -1,0 +1,73 @@
+.Main {
+  position: relative;
+  height: 100%;
+  background-image: url(backPic.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main_div {
+  align-items: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text_div {
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.name_app {
+  font-size: 250px;
+  font-weight: 100;
+  font-family: "Playfair Display", sans-serif;
+  text-align: center;
+  letter-spacing: 3rem;
+}
+
+.H {
+  color: #838383;
+}
+
+.E {
+  color: #9b9999;
+}
+
+.X {
+  color: #c5c0c0;
+}
+
+.B {
+  color: #d1d0d0;
+}
+
+.U {
+  color: #d7d7d7;
+}
+
+.L {
+  color: #ededed;
+}
+
+.A {
+  color: #ffffff;
+}
+
+.discrpit_div {
+  cursor: default;
+  padding-top: 2.5%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.discript {
+  text-align: end;
+  font-size: 30px;
+  color: #d7d7d7;
+  font-family: "PT Sans Caption", sans-serif;
+}
