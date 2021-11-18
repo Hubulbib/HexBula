@@ -11,7 +11,7 @@ const Footer : FC = () => {
         <div className="footer">
             <div className="discription">
                 <img src={logo} alt={'Logo ReactorIT'} className="logo_footer"/>
-                <p className="text_footer">Reactor IT - современные решения в веб-разработке.<br/><br/>Занимаемся разработкой веб-приложений, используя современные технологии.<br/><br/>Наш стек разработки - это React, MongoDB, NodeJS, ExpressJS, TypeScript.</p>
+                <p className="text_footer">Reactor IT - современные решения в веб-разработке.<br/><br/>Занимаемся разработкой веб-приложений, используя современные технологии.<br/><br/>Наш стек разработки - это React, MongoDB, NodeJS, ExpressJS.</p>
             </div>
             <div className="information">
                 <div className="tables">

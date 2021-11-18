@@ -44,6 +44,7 @@
 
 .triangle {
   padding-top: 10px;
+  margin-top: 10px;
   margin: auto;
   width: 0;
   height: 0;
@@ -57,4 +58,31 @@
   justify-content: flex-start;
   height: 30px;
   background-color: white;
+}
+
+@media (max-width: 767px) {
+  .nav_text {
+    font-weight: 300;
+    color: white;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .triangle {
+    transform: translateY(10%);
+    padding-top: 10px;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid white;
+  }
+
+  .band {
+    display: flex;
+    justify-content: flex-start;
+    height: 20px;
+    background-color: white;
+  }
 }

@@ -131,7 +131,11 @@ const Test = (props) => {
             <h1 className="test_number_text">Тест №{number.current}</h1>
           </div>
           <div className="test_record">
-            <h1 className="test_record_text">Рекорд теста: {record}</h1>
+            <h1 className="test_record_text">
+              Рекорд теста:
+              <br />
+              {record}
+            </h1>
           </div>
         </div>
         <div className="test_input">
@@ -152,7 +156,7 @@ const Test = (props) => {
           <div className="test_inputs">
             <input
               value={nowProblem}
-              style={{ marginRight: 40, cursor: "default" }}
+              style={{ cursor: "default" }}
               className="test_inputs_f"
               readOnly
             />
@@ -161,7 +165,6 @@ const Test = (props) => {
             </div>
             <input
               value={answerPerson}
-              style={{ marginLeft: 40 }}
               className="test_inputs_f"
               maxLength={11}
               onChange={answerPersonHandler}

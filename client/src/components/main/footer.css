@@ -104,6 +104,11 @@
   margin-right: 5%;
 }
 
+.mail {
+  height: 50px;
+  padding: 0 2.5px 0 2.5px;
+}
+
 .products {
   display: flex;
   flex: 1;
@@ -146,4 +151,478 @@
 
 .link_main {
   text-decoration: none;
+}
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+  .discription {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    background-color: white;
+  }
+
+  .logo_footer {
+    height: 150px;
+    width: 370px;
+  }
+
+  .text_footer {
+    cursor: default;
+    line-height: 35px;
+    font-family: "Roboto", sans-serif;
+    width: 40%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .information {
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .tables {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+    display: flex;
+  }
+
+  .links {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 55px;
+  }
+
+  .link_text {
+    cursor: pointer;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 24px;
+    transition: all 0.2s;
+  }
+
+  .link_text:hover {
+    font-size: 30px;
+    transition: all 0.2s;
+  }
+
+  .adress {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-self: flex-start;
+  }
+
+  .marker_adress,
+  .mail_adress {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .marker_adress {
+    padding-bottom: 10px;
+  }
+
+  .marker_text,
+  .mail_text {
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    transition: all 0.2s;
+    color: white;
+  }
+
+  .mail_text:hover,
+  .marker_text:hover {
+    font-size: 26px;
+    transition: all 0.2s;
+  }
+  .marker,
+  .mail {
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    background-color: #787878;
+    margin-right: 5%;
+  }
+
+  .mail {
+    height: 50px;
+    padding: 0 2.5px 0 2.5px;
+  }
+
+  .products {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gen:hover {
+    transition: all 10s;
+    transform: rotate(360deg);
+  }
+
+  .gen_text {
+    cursor: default;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    padding-bottom: 30px;
+  }
+
+  .gen {
+    transition: all 5s;
+    cursor: pointer;
+    height: 200px;
+    width: 200px;
+  }
+
+  .reactor {
+    cursor: default;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .reactor_text {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: #606060;
+  }
+
+  .link_main {
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .discription {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    background-color: white;
+  }
+
+  .logo_footer {
+    height: 150px;
+    width: 370px;
+  }
+
+  .text_footer {
+    cursor: default;
+    line-height: 35px;
+    font-family: "Roboto", sans-serif;
+    width: 40%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .information {
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .tables {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+    display: flex;
+  }
+
+  .links {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 55px;
+  }
+
+  .link_text {
+    cursor: pointer;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 20px;
+    transition: all 0.2s;
+  }
+
+  .link_text:hover {
+    font-size: 23px;
+    transition: all 0.2s;
+  }
+
+  .adress {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-self: flex-start;
+  }
+
+  .marker_adress,
+  .mail_adress {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .marker_adress {
+    padding-bottom: 10px;
+  }
+
+  .marker_text,
+  .mail_text {
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    transition: all 0.2s;
+    color: white;
+  }
+
+  .mail_text:hover,
+  .marker_text:hover {
+    font-size: 23px;
+    transition: all 0.2s;
+  }
+  .marker,
+  .mail {
+    height: 40px;
+    width: 40px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    background-color: #787878;
+    margin-right: 5%;
+  }
+
+  .mail {
+    height: 40px;
+    padding: 0 2.5px 0 2.5px;
+  }
+
+  .products {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gen:hover {
+    transition: all 10s;
+    transform: rotate(360deg);
+  }
+
+  .gen_text {
+    cursor: default;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    padding-bottom: 30px;
+  }
+
+  .gen {
+    transition: all 5s;
+    cursor: pointer;
+    height: 150px;
+    width: 150px;
+  }
+
+  .reactor {
+    cursor: default;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .reactor_text {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: #606060;
+  }
+
+  .link_main {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .discription {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    background-color: white;
+  }
+
+  .logo_footer {
+    height: 70px;
+    width: 172px;
+  }
+
+  .text_footer {
+    cursor: default;
+    line-height: 20px;
+    font-family: "Roboto", sans-serif;
+    width: 40%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .information {
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .tables {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .links {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 40px;
+    margin-bottom: 10%;
+  }
+
+  .link_text {
+    cursor: pointer;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 14px;
+    transition: all 0.2s;
+  }
+
+  .link_text:hover {
+    font-size: 17px;
+    transition: all 0.2s;
+  }
+
+  .adress {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-self: flex-start;
+    margin-bottom: 12%;
+  }
+
+  .marker_adress,
+  .mail_adress {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .marker_adress {
+    padding-bottom: 10px;
+  }
+
+  .marker_text,
+  .mail_text {
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    transition: all 0.2s;
+    color: white;
+  }
+
+  .mail_text:hover,
+  .marker_text:hover {
+    font-size: 17px;
+    transition: all 0.2s;
+  }
+  .marker,
+  .mail {
+    height: 30px;
+    width: 30px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    background-color: #787878;
+    margin-right: 5%;
+  }
+
+  .mail {
+    height: 30px;
+    padding: 0 2.5px 0 2.5px;
+  }
+
+  .products {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gen:hover {
+    transition: all 10s;
+    transform: rotate(360deg);
+  }
+
+  .gen_text {
+    cursor: default;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    padding-bottom: 30px;
+  }
+
+  .gen {
+    transition: all 5s;
+    cursor: pointer;
+    height: 150px;
+    width: 150px;
+  }
+
+  .reactor {
+    cursor: default;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .reactor_text {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: #606060;
+  }
+
+  .link_main {
+    text-decoration: none;
+  }
 }

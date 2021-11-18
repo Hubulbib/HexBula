@@ -85,7 +85,6 @@ const Contacts = () => {
               target="_blank"
               rel="noreferrer"
               href="mailto:reactoriT.tag.info@gmail.com"
-              className="mail_text"
             >
               <img src={google} alt="google" className="find_us" />
             </a>

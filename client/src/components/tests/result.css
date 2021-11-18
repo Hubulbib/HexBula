@@ -11,6 +11,8 @@ span {
   background-position: center;
   background-size: cover;
   flex-direction: column;
+  width: auto;
+  overflow-x: hidden;
 }
 .main {
   padding: 40px;
@@ -105,7 +107,7 @@ span {
 }
 
 .result_register {
-  width: 50%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -179,4 +181,195 @@ span {
 .btn_reg_save:hover {
   transition: all 0.5s;
   border: 1px solid silver;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .result_register {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 15%;
+  }
+
+  .reg_info {
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .reg_info2 {
+    width: 70%;
+    padding-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .reg_name_div {
+    height: 50%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reg_places1 {
+    cursor: default;
+    font-size: 24px;
+    padding-bottom: 50px;
+  }
+
+  .reg_places2 {
+    cursor: default;
+    font-size: 26px;
+    padding-bottom: 35px;
+  }
+
+  .reg_input {
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    text-decoration-color: white;
+  }
+
+  .btn_reg_save {
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    padding: 10px 40px 10px 40px;
+    width: min-content;
+    background: radial-gradient(
+      272.37% 7853.5% at -67.09% -40.79%,
+      rgba(255, 255, 255, 0.48) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    border-radius: 30px;
+    border: 1px solid transparent;
+    transition: all 0.5s;
+    font-size: 32px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .btn_reg_save:hover {
+    transition: all 0.5s;
+    border: 1px solid silver;
+  }
+}
+
+@media (max-width: 767px) {
+  .mark_info {
+    line-height: 50px;
+  }
+
+  .mark_span {
+    font-size: 20px;
+  }
+
+  .mark_time_span {
+    cursor: default;
+    font-size: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .confetti {
+    width: 20px;
+    height: 20px;
+  }
+
+  .result h1 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+  }
+
+  .righting h1 {
+    font-size: 32px;
+  }
+
+  .resukt span {
+    font-size: 20px;
+  }
+  .result_register {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 15%;
+  }
+
+  .reg_info {
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .reg_info2 {
+    width: 100%;
+    padding-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .reg_name_div {
+    height: 50%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reg_places1 {
+    cursor: default;
+    font-size: 24px;
+    padding-bottom: 50px;
+  }
+
+  .reg_places2 {
+    cursor: default;
+    font-size: 12px;
+    padding-bottom: 35px;
+  }
+
+  .reg_input {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    text-decoration-color: white;
+  }
+
+  .btn_reg_save {
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    padding: 10px 30px 10px 30px;
+    width: min-content;
+    background: radial-gradient(
+      272.37% 7853.5% at -67.09% -40.79%,
+      rgba(255, 255, 255, 0.48) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    border-radius: 30px;
+    border: 1px solid transparent;
+    transition: all 0.5s;
+    font-size: 22px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .btn_reg_save:hover {
+    transition: all 0.5s;
+    border: 1px solid silver;
+  }
 }

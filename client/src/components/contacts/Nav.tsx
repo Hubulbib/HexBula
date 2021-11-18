@@ -18,7 +18,7 @@ const Nav : FC = () => {
                 <NavLink to="/calculator" className="nav_item">
                     <h1 className="nav_text">Calculator</h1>
                 </NavLink>
-                <div className="nav_item_main">
+                <div className="nav_item_main" style={{paddingRight: 0}}>
                     <h1 className="nav_text">Contacts</h1>
                     <div className="triangle"></div>
                 </div>
