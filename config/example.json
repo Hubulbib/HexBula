@@ -1,6 +1,0 @@
-{
-    "PORT": 123,
-    "mongoUri": "uri",
-    "email": "mail",
-    "password": "pass"
-}

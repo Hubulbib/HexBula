@@ -10,6 +10,7 @@ const Test = (props) => {
   const {
     result: { dispacth2 },
   } = useContext(Context);
+
   const number = useRef(props.location.props.number);
   const minutes = useRef("00");
   const seconds = useRef("00");
